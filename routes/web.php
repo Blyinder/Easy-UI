@@ -4,7 +4,7 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome',['titre' => 'Mon premier exemple.']);
+    return view('easyui',['titre' => 'EasyUI Components.']);
 });
 
 // Normal User
